@@ -20,7 +20,7 @@ class Weather
     public function getWeather(){
         $this->restClient->CurlInit($this->url);
         $response = json_decode($this->restClient->CurlExec(),true)[weather][0][description];
-        return $response;
+        return 'Weer: '.$response;
     }
     public function getTemperature(){
         $this->restClient->CurlInit($this->url);
