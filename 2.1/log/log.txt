@@ -90,3 +90,4 @@
 2021-03-08 17:20:24: SELECT * FROM user WHERE usr_email='steven@inform.be' 
 2021-03-08 17:20:35: SELECT * FROM user WHERE usr_email='anton@verlinden.be' 
 2021-03-08 17:20:38: select * from images
+2021-03-11 05:54:11: SHOW FULL COLUMNS FROM user

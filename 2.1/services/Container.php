@@ -49,7 +49,7 @@ class Container
     public function getDBManager()
     {
         if ( $this->dbManager === null ) {
-            $this->dbManager = new DBManager( $this->getLogger(), $this->dbconfig );
+            $this->dbManager = new DBManager( $this->getLogger(), "localhost", "steden", "root", "newpass" );
         }
 
         return $this->dbManager;
